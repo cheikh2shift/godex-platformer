@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platformer Adventure</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="ui">
+            <div id="score">Score: <span id="scoreValue">0</span></div>
+            <div id="lives">Lives: <span id="livesValue">3</span></div>
+        </div>
+        <div id="start-screen" class="screen">
+            <h1>Platformer Adventure</h1>
+            <p>Collect coins, avoid enemies, reach the flag!</p>
+            <p>Controls: Arrow keys to move, Space to jump</p>
+            <button id="startBtn">Start Game</button>
+        </div>
+        <div id="game-over-screen" class="screen hidden">
+            <h1>Game Over</h1>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="restartBtn">Play Again</button>
+        </div>
+        <div id="win-screen" class="screen hidden">
+            <h1>You Win!</h1>
+            <p>Final Score: <span id="winScore">0</span></p>
+            <button id="playAgainBtn">Play Again</button>
+        </div>
+    </div>
+    <script src="src/sound.js"></script>
+    <script src="src/input.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/level.js"></script>
+    <script src="src/game.js"></script>
+</body>
+</html>
