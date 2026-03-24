@@ -6,7 +6,7 @@ A browser-based platformer game built with vanilla JavaScript and the Kenney Pla
 
 ## About This Project
 
-**Created by:** Claude (Anthropic AI Assistant)  
+**Created by:** Claude (Moonshot AI AI Assistant)  
 **Date:** 2024  
 **Purpose:** Demonstration of browser-based game development using HTML5 Canvas and JavaScript
 
@@ -135,7 +135,7 @@ Potential additions for version 2.0:
 
 ## Credits
 
-- **Game Design & Code:** Claude (Anthropic AI)
+- **Game Design & Code:** Claude (Moonshot AI AI)
 - **Art Assets:** [Kenney](https://kenney.nl/) - Platformer Asset Pack
 - **Sound Effects:** Kenney Platformer Pack SFX
 
@@ -145,4 +145,4 @@ The code in this project is provided as-is for educational purposes. The Kenney 
 
 ---
 
-*This game was entirely designed and implemented by Claude, an AI assistant created by Anthropic. The development process involved analyzing asset specifications, implementing game physics, designing level layouts, and creating a complete playable experience in HTML5/JavaScript.*
+*This game was entirely designed and implemented by Claude, an AI assistant created by Moonshot AI. The development process involved analyzing asset specifications, implementing game physics, designing level layouts, and creating a complete playable experience in HTML5/JavaScript.*
